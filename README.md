@@ -2,6 +2,8 @@
 
 This tool is used to generate a maximally diversified meal plan, based on your own meal collection, while adhering to certain rules. It targets one cooked meal per calendar day.
 
+![Screenshot](https://github.com/VbaCoder/Meal-Planner-in-Excel-VBA/blob/main/MealPlannerScreenshot.png?raw=true)
+
 The implementation via Excel with Visual Basic macros has the following advantages and disadvantages:
 
 Advantages
