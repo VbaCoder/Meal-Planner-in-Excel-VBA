@@ -139,7 +139,7 @@ When you generated a meal plan and you later edited some meals in your Meals wor
 
 **Language worksheet**
 
-All user messages and UI elements of this Excel sheet are internationalized. On the worksheet Language you can select the UI language in the " **Current language"** field and then activate it with the " **Change language**" button.
+All the user messages and UI elements of this Excel sheet are internationalized. The initially supported languages are: English, German and Slovak. You can select the UI language in the "**Current language"** field and then activate it with the "**Change language**" button.
 
 You can also add an additional column for **a new language** in the table on this sheet, e.g. "SP" for Spanish. In this new column you can enter your own string translations and the sheet will support this new UI language.
 
