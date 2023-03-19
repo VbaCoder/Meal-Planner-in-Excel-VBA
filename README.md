@@ -62,10 +62,10 @@ You can also insert **your own additional columns** and fill them with your own 
 
 **Use Case "Ad Hoc Inspiration"**
 
-- What could I cook today? It should be something vegetarian, not sweet, and all family members should like it, or at least not dislike it. Simply filter the columns of the table accordingly: "Contains meat" = 0; "Category " ! = Sweet dish; "Popularity" \> 1.
-- I have some bell peppers left. What could I use them for? Simply filter in the table.
+- What could I cook today? It should be something vegetarian, not sweet, and all family members should like it, or at least not dislike it. &rarr; Simply filter the columns of the table accordingly: "Contains meat" = 0; "Category " ! = Sweet dish; "Popularity" \> 1.
+- I have some bell peppers left. What could I use them for? &rarr; Simply filter in the table.
  Column Filtering: "Ingredients" contains "bell pepper".
-- Which fish meal haven't we had for a long time? Simply filter & sort in the table.
+- Which fish meal haven't we had for a long time? &rarr; Simply filter & sort in the table.
  Column Filtering: "Category" = Fish ; Column sorting: "Last served date" - ascending.
 
 **Worksheet Rules**
@@ -127,7 +127,7 @@ There are following possibilities for manual meal plan improvements:
 Once the meal plan has been sufficiently edited, it can be archived. Afterwards, the next period can be planned.
 
 - **Archive**. Once you are satisfied with your meal plan after the manual changes, you can archive it via this button. This archives the serving dates of all planned meals to the Meals worksheet. After that, this meal plan should not be changed on the Planning sheet. And exactly because you may want to change your meal plan spontaneously during its use (we do that for our plans regularly), it is better not archiving it until its planning period is really over. Hence, ideally do it just before you move on to the next planning period. As the archiving operation cannot be easily undone, it is recommended to save your Excel file before executing it. This will be also suggested to you by a corresponding message.
-- **Next period**. After archiving, you can use this button to go to the next planning period. The new Plan Start = current Plan Start + current Plan Length. The planning cycle then begins again, i.e.: Generate  manually improve  Export and, if needed, also Generate shopping lists  Archive  Next period. And so forth, in a continuous cycle.
+- **Next period**. After archiving, you can use this button to go to the next planning period. The new Plan Start = current Plan Start + current Plan Length. The planning cycle then begins again, i.e.: Generate &rarr; manually improve &rarr; Export and, if needed, also Generate shopping lists &rarr; Archive &rarr; Next period. And so forth, in a continuous cycle.
 
 **Use case: "Experiment"**
 
@@ -143,7 +143,7 @@ All the user messages and UI elements of this Excel sheet are internationalized.
 
 You can also add an additional column for **a new language** in the table on this sheet, e.g. "SP" for Spanish. In this new column you can enter your own string translations and the sheet will support this new UI language.
 
-New language columns should ideally be inserted in the penultimate position, i.e. to the left of the last language column. The new language will then be automatically offered in the language selection combo box. (Otherwise you would have to expand the data source for the combo box contents via the Excel function: "Data" -\> "Data verification".)
+New language columns should ideally be inserted in the penultimate position, i.e. to the left of the last language column. The new language will then be automatically offered in the language selection combo box. (Otherwise you would have to expand the data source for the combo box contents via the Excel function: "Data" &rarr; "Data verification".)
 
 The strings in the table can include other strings via the \<StringId\> syntax and can also position parameter values via the # placeholder. The parameter contents are determined by the VBA code which uses the respective string.
 
